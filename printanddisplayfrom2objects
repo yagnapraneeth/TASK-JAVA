@@ -1,0 +1,37 @@
+//object 1
+package task_workshop_cbit;
+
+public class objectclass1 {
+	void Display() {
+	System.out.println("welcome to CBIT.. I am from object class1");
+}
+}
+
+
+//object 2
+package task_workshop_cbit;
+
+public class objectclass2 {
+	void print() {
+		System.out.println("welcome to CBIT.. I am from object class 2");
+	}
+
+}
+
+//driverclass
+package task_workshop_cbit;
+
+public class driverclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		objectclass1 obj1;
+		obj1=new objectclass1();
+		obj1.Display();
+		objectclass2 obj2;
+		obj2=new objectclass2();
+		obj2.print();
+		
+	}
+
+}
