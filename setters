@@ -1,0 +1,19 @@
+
+public class Customer_Details {
+	int CustId;
+	String CustName;
+	String CustAddr;
+	int CustMnumber;
+	public void setCustId(int custId) {
+		CustId = custId;
+	}
+	public void setCustName(String custName) {
+		CustName = custName;
+	}
+	public void setCustAddr(String custAddr) {
+		CustAddr = custAddr;
+	}
+	public void setCustMnumber(int custMnumber) {
+		CustMnumber = custMnumber;
+	}
+	
