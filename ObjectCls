@@ -1,0 +1,6 @@
+
+public class ObjectCls {
+void Display() {//no args no returns
+	System.out.println("welcome to CBIT.. I am from object class");
+}
+}
