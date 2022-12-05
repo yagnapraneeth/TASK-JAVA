@@ -1,0 +1,21 @@
+
+public class Customer_Details {
+	int CustId;
+	String CustName;
+	String CustAddr;
+	int CustMnumber;
+	public int getCustId() {
+		return CustId;
+	}
+	public String getCustName() {
+		return CustName;
+	}
+	public String getCustAddr() {
+		return CustAddr;
+	}
+	public int getCustMnumber() {
+		return CustMnumber;
+	}
+	
+
+}
