@@ -1,0 +1,40 @@
+//object class
+package task_testcase;
+
+public class test_objclass {
+	void Display() {
+		System.out.println("objects 1,2,3,4,5");
+	}
+
+}
+
+
+//driverclass
+package task_testcase;
+
+public class test_driverclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    test_objclass obj1,obj2,obj3,obj4,obj5;
+    obj1=new test_objclass();
+    obj2=new test_objclass();
+    obj3=new test_objclass();
+    obj4=new test_objclass();
+    obj5=new test_objclass();
+    obj1.Display();
+    obj2.Display();
+    obj3.Display();
+    obj4.Display();
+    obj5.Display();
+	}
+
+}
+
+
+//output
+objects 1,2,3,4,5
+objects 1,2,3,4,5
+objects 1,2,3,4,5
+objects 1,2,3,4,5
+objects 1,2,3,4,5
