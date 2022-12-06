@@ -1,0 +1,33 @@
+//driver
+
+
+
+
+public class Paradriver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Paraobject p;
+		p=new Paraobject("yagna",49,"Kukatpally");
+	}
+
+}
+
+
+
+//object
+
+public class Paraobject {
+	Paraobject(String name,int Rnumber,String Addrs){
+		System.out.println("name is:"+name);
+		System.out.println("Rnumber is:"+Rnumber);
+		System.out.println("Addrs is:"+Addrs);
+	}
+}
+
+//output
+name is:yagna
+Rnumber is:49
+Addrs is:Kukatpally
+
+
