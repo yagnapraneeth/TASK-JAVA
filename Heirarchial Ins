@@ -1,0 +1,69 @@
+//superclass
+
+
+public class SuperCls {
+	public void Display() {
+	System.out.println("this is super class");	
+
+	}
+
+}
+
+
+//SubCls1
+
+public class SubCls  extends SuperCls{
+	void Display1() {
+		System.out.println("this is sub1");
+		Display();
+	}
+
+}
+
+
+//subcls2
+
+public class SubCls2 extends SuperCls{
+	void Display2() {
+		System.out.println("this is sub 2");
+		Display();
+	}
+
+}
+
+
+//subcls3
+
+
+public class SubCls3 extends SuperCls{
+	void Display3() {
+		System.out.println("this is sub 3");
+		Display();
+	}
+
+}
+//driver
+
+public class HeirarchialDriver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SubCls S1;
+		SubCls2 S2;
+		SubCls3 S3;
+		S1=new SubCls();
+		S2=new SubCls2();
+		S3=new SubCls3();
+		S1.Display1();
+		S2.Display2();
+		S3.Display3();
+	}	
+
+}
+//output
+this is sub1
+this is super class
+this is sub 2
+this is super class
+this is sub 3
+this is super class
