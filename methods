@@ -1,0 +1,96 @@
+package methodproject;
+
+public class driverclass4 {
+	int display(int x) {
+		return(x);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		driverclass4 d;
+		d=new driverclass4();
+		int a=d.display(10);
+		System.out.println("my name is"+a);
+		
+
+	}
+
+}
+
+
+
+
+
+package methodproject;
+
+public class driverclass3 {
+	//with arg without ret
+	void display(int i) {
+		System.out.println("his jersey num is "+i);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		driverclass3 d;
+		d=new driverclass3();
+		d.display(44);
+
+	}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  package methodproject;
+
+public class driverclass2 {
+	int display() {
+		return(44);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		driverclass2 d2;
+		d2=new driverclass2();
+		int x=d2.display();
+		System.out.println("return value from function is"+x);
+		
+
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+package methodproject;
+
+public class driverclass {
+
+	driverclass() {
+		System.out.println("i a from no arg amd no return");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		driverclass d;
+		d=new driverclass();
+		//d.display();
+
+	}
+
+}
+
+
+
+
