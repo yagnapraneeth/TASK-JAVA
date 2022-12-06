@@ -1,0 +1,57 @@
+//obj1
+public class MultiObj1 {
+public void Display() {
+	System.out.println("super class invoked");
+}
+}
+
+
+
+
+//obj2
+
+public class MultiObj2 extends MultiObj1  {
+public void Display1() {
+	Display();
+	System.out.println("sub class");
+	
+}
+}
+
+
+
+
+
+//obj3
+
+public class MultiObj3 extends MultiObj2 {
+void Display2() {
+	Display1();
+	System.out.println("derived class invoked");
+}
+}
+
+
+
+//driver
+
+public class MultiDriver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    MultiObj3 d;
+    d=new MultiObj3();
+    d.Display2();
+	}
+
+}
+
+
+
+//output
+super class invoked
+sub class
+derived class invoked
+
+
+
