@@ -1,0 +1,32 @@
+//project name is same as object class
+//driverclass
+  public class DriverOver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ ConsOverload c;
+ c=new ConsOverload();
+ c=new ConsOverload(10);
+ c=new ConsOverload(10,21);
+ 
+	}
+
+}
+//object
+
+public class ConsOverload {
+	ConsOverload(){
+		System.out.println("no arg cons");
+	}
+	ConsOverload(int x){
+		System.out.println("single para"+x);
+	}
+	ConsOverload(int x,int y){
+		System.out.println(y+"single para"+x);
+}
+}
+
+//output
+no arg cons
+single para10
+21single para10
