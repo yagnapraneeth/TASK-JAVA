@@ -1,0 +1,25 @@
+//driverclass
+
+
+public class Paradriver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Paraobject p;
+		p=new Paraobject("welcome to java");
+	}
+
+}
+
+
+
+//object class
+
+public class Paraobject {
+	Paraobject(String str){
+		System.out.println("welcome:"+str);
+	}
+}
+
+//output
+welcome:welcome to java
