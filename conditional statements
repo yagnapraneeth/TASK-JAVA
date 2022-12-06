@@ -1,0 +1,100 @@
+//if
+
+
+public class IfDriver {
+
+	public static void main(String[] args) {
+		int x;
+		x=10;
+		if(x>0)
+		{
+			System.out.println("+ve");
+		}
+		// TODO Auto-generated method stub
+
+	}
+}
+
+
+//ifelse
+
+
+public class IfElse {
+
+	public static void main(String[] args) {
+		int x=10;
+		if(x>0)
+		{
+			System.out.println("+ve");
+		}
+		else {
+			System.out.println("-ve or 0");
+		// TODO Auto-generated method stub
+		}
+	}
+
+}
+
+
+//nested if
+
+
+public class NestedIf {
+
+	public static void main(String[] args) {
+		int x=0;
+		if(x>0) {
+			System.out.println("+ve");
+		}
+			if(x==0)
+			System.out.println("0");
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+//ifelseif
+
+
+public class IfElseIf {
+
+	public static void main(String[] args) {
+	int	x=1;
+	if(x==1) 
+		System.out.println("CSE");
+	
+	if(x==2) 
+		System.out.println("CSBS");
+	
+	if(x==3) 
+		System.out.println("CSM");
+	
+	
+	else
+		System.out.println("non of the above");
+		// TODO Auto-generated method stub
+
+	}
+
+}
+//switch
+
+
+public class Switch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=10;
+		switch(x) {
+		case 0: System.out.println("biotech");break;
+		case 1: System.out.println("cse1");break;
+		case 2: System.out.println("cse2");break;
+		case 3: System.out.println("cse3");break;
+		case 4: System.out.println("cse4");break;
+		default:System.out.println("enter values from 0-4");break;
+		}
+	}
+
+}
